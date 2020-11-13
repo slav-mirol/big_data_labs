@@ -1,4 +1,10 @@
-1. Подзадачи "Преобразовать любой файл набора данных stackoverflow в parquet формат c помощью Apache Spark.":
+
+# Рекомендации и подсказки
+
+### 1. Для парсинга xml строк используйте метод `scala.xml.XML.loadString`.  
+### 2. Для получения значений из полученного объекта `myxml.attribute('UserId')` или `myxml.attributes.asAttrMap('UserId')`.
+
+### 3. Подзадачи "Преобразовать любой файл набора данных stackoverflow в parquet формат c помощью Apache Spark.":
  1) создать объект типа RDD для текстового файла /data/stackoverflow/posts.xml
  2) добавить к каждому объекту индекс .zipWithIndex
  3) убрать из коллекции строки 1, 2 и последню фильтрацией по индексу
@@ -10,5 +16,6 @@
  6) создать Dataset на основе коллекции объектов класса-схемы методом spark.createDataset
  7) сохранить таблицу в parquet файл
 
-2. Код решения части 2.
-    - https://gist.github.com/protsenkovi/f163377113b172ccfeb5db397f7dd75c
+# Пример решения
+
+https://gist.github.com/protsenkovi/f163377113b172ccfeb5db397f7dd75c
