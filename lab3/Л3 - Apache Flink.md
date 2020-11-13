@@ -13,7 +13,7 @@
 
 Для выполнения заданий вам потребуется датасет с данными о поездках такси в Нью-Йорке https://github.com/apache/flink-training/blob/master/README.md#using-the-taxi-data-streams. Файлы `nycTaxiFares.gz` и `nycTaxiRides.gz` вы можете найти в папке `data` https://gitlab.com/ssau.tk.courses/big_data/-/tree/master/data.
 
-Начало работы:
+## Начало работы
 
 1. git clone https://github.com/ververica/flink-training-exercises
 2. Откройте проект в IntelliJ IDEA 
