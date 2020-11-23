@@ -15,7 +15,7 @@
 Архивы сайтов **Stack Exchange** доступны по адресу https://archive.org/details/stackexchange.
 
 В папке `data` данного репозитория вам доступны:
-- выборка данных `posts_sample.xml`,
+- выборка данных `posts_sample.xml` (из stackoverflow.com-Posts.7z),
 - файл со списком языков `programming-languages.csv`, собранных с вики-страницы.
 
 Рекомендуется отлаживать решение на небольшой выборке данных `posts_sample.xml`. Данная выборка была получена следующим кодом:
