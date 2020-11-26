@@ -14,10 +14,7 @@
 - выборка данных `posts_sample.xml` (из stackoverflow.com-Posts.7z),
 - файл со списком языков `programming-languages.csv`, собранных с вики-страницы https://en.wikipedia.org/wiki/List_of_programming_languages.
 
-Рекомендуется отлаживать решение на небольшой выборке данных `posts_sample.xml`. Данная выборка была получена следующим кодом:
-```
- sc.textFile("/user/mapr/posts.xml").mapPartitions(_.take(1000))
-```
+Рекомендуется отлаживать решение на небольшой выборке данных `posts_sample.xml`. 
 
 ## Ссылки на источники
   1. https://spark.apache.org/docs/latest/sql-programming-guide.html
