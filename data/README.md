@@ -11,6 +11,10 @@ https://archive.org/details/stackexchange
 
 posts_sample.xml
 
+```
+sc.textFile("posts.xml").mapPartitions(_.take(1000)).repartition(1).saveAsTextFile("posts_sample.xml")
+```
+
 ### New York City Taxi Data(2010-2013)
 
 https://databank.illinois.edu/datasets/IDB-9610843 или https://uofi.app.box.com/v/NYCtaxidata 
