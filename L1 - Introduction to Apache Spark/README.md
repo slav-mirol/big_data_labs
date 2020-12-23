@@ -44,7 +44,7 @@ ssh mapr@localhost -p 2222
 ## Настройка Spark
 
 ```
-echo 'export PATH=$PATH:/opt/mapr/spark/spark-2.4.5/bin' > /home/mapr/.bashrc
+echo 'export PATH=$PATH:/opt/mapr/spark/spark-2.4.5/bin' > /home/mapr/.bash_profile
 ```
 
 https://docs.datafabric.hpe.com/62/AdvancedInstallation/InstallingHadoop.html
