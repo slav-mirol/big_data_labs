@@ -43,6 +43,7 @@ ssh mapr@localhost -p 2222
 
 ## Настройка Spark
 
+Добавьте расположение Spark утилит в переменную среды PATH для их вызова без указания полного пути.
 ```
 echo 'export PATH=$PATH:/opt/mapr/spark/spark-2.4.5/bin' > /home/mapr/.bash_profile
 ```
