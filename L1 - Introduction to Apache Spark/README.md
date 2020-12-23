@@ -24,7 +24,7 @@ docker exec -d maprdemo /opt/mapr/server/configure.sh -R
 ```
 
 Код взят из инструкции https://docs.datafabric.hpe.com/62/MapRContainerDevelopers/RunMapRContainerDevelopers.html.   
-Протестирован в WSL 2 https://docs.microsoft.com/ru-ru/windows/wsl/install-win10.
+Протестирован в WSL2 Ubuntu 18.04 https://docs.microsoft.com/ru-ru/windows/wsl/install-win10.
 
 Время развёртывания: ~10 минут.
 
