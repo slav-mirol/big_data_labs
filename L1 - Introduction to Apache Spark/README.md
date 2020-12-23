@@ -54,7 +54,7 @@ https://docs.datafabric.hpe.com/62/AdvancedInstallation/InstallingHadoop.html
 | Имя сервиса | Адрес | Комментарии |
 |---|---|---|
 | CLDB | localhost:7221  | Должен запуститься в первую очередь. |
-| Веб консоль администратора MapR | localhost:8443  | Испольузется самоподписанный сертификат, сделайте исключение для этого сайта. |
+| Веб консоль администратора MapR | localhost:8443  | Используется самоподписанный сертификат - сделайте исключение для этого сайта. |
 | Resource manager | localhost:8088  | |
 | History server | localhost:19888 | |
 
