@@ -19,8 +19,12 @@ sc.textFile("posts.xml").mapPartitions(_.take(1000)).repartition(1).saveAsTextFi
 
 https://databank.illinois.edu/datasets/IDB-9610843 или https://uofi.app.box.com/v/NYCtaxidata 
 
-nycTaxiFares.gz  
-nycTaxiRides.gz 
+nyctaxi.csv   
+схема: https://uofi.app.box.com/v/NYCtaxidata/file/33670345557
+
+nycTaxiFares.gz   
+nycTaxiRides.gz  
+схема: https://github.com/apache/flink-training/blob/master/README.md#schema-of-taxi-ride-events
 
 ### List of programming languages 
 
