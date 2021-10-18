@@ -31,3 +31,11 @@ nycTaxiRides.gz
 https://en.wikipedia.org/wiki/List_of_programming_languages 
 
 programming-languages.csv
+
+
+### Другие источники данных
+
+https://data.world/  
+https://www.dolthub.com/  
+https://bit.io/  
+https://github.com/infoculture/awesome-opendata-rus  
