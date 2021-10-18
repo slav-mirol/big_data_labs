@@ -35,7 +35,4 @@ programming-languages.csv
 
 ### Другие источники данных
 
-https://data.world/  
-https://www.dolthub.com/  
-https://bit.io/  
 https://github.com/infoculture/awesome-opendata-rus  
