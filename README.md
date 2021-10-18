@@ -8,3 +8,8 @@
 | Октябрь | [Формирование отчётов в Apache Spark](L2 - Reports with Apache Spark) | скрипт/проект и отчёт |
 | Ноябрь | [Потоковая обработка в Apache Flink](L3 - Stream processing with Apache Flink/README.md) | проект с выполненными заданиями и отчёт (с зелёными тестами) |
 | Декабрь | [ZooKeeper](L4 - ZooKeeper/L4_Zookeeper.md) | проект и отчёт |
+
+
+### События
+
+26-28 октября, Flink Forward Global 2021 registration page: https://hopin.com/events/flink-forward-global-2021
