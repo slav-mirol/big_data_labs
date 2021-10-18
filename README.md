@@ -17,5 +17,5 @@
 
 ### Архив 
 
-24-28 мая, Data + AI Summit NA 2021: https://www.youtube.com/playlist?list=PLTPXxbhUt-YVtufaAKCRfyPYsjgpq5DRL
+24-28 мая, Data + AI Summit NA 2021: https://www.youtube.com/playlist?list=PLTPXxbhUt-YVtufaAKCRfyPYsjgpq5DRL   
 9-12 декабря, SmartData 2020: https://www.youtube.com/playlist?list=PLeN_80lmoMY1ugdDLg2mWht5eQDq6CoNQ
