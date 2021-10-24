@@ -360,9 +360,9 @@ WatchedEvent state:SyncConnected type:NodeDataChanged path:/myconfig
 
 ## Мониторинг ZooKeeper
 
-ZooKeeper позволяет проводить мониторинг его состояния с использованием 4 буквенных команд: `conf`, `cons`, `stat` и других. Полный список команд доступен по адресу https://zookeeper.apache.org/doc/trunk/zookeeperAdmin.html#The+Four+Letter+Words. 
+ZooKeeper позволяет проводить мониторинг его состояния с использованием 4 буквенных команд: `conf`, `cons`, `stat` и других. Полный список команд доступен по адресу https://zookeeper.apache.org/doc/r3.7.0/zookeeperAdmin.html#sc_4lw . 
 
-**Примечание. В последних версиях Zookeeper 4-буквенные команды отключены по умолчанию. Вы можете их включить при запуске сервера с параметром JVM `-Dzookeeper.4lw.commands.whitelist=*`.**
+**Примечание. С коммита https://github.com/apache/zookeeper/commit/5fe68506f217246c7ebd96803f9c78e13ec2f11a Zookeeper 4-буквенные команды отключены по умолчанию. Вы можете их включить при запуске сервера с параметром JVM `-Dzookeeper.4lw.commands.whitelist=*`.**
 
 Команды можно отправлять на сервер из linux терминала с помощью утилит `echo` и `netcat`. Для некоторых linux систем `netcat` может быть вызван по сокращённому имени `nc`. Синтаксис команды:
 
