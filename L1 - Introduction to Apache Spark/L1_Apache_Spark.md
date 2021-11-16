@@ -150,11 +150,11 @@ linesWithWar.first
 
 Перед подсчётом количества элементов вызовите команду кэширования `cache()`. Трансформации не будут обработаны, пока не будет запущена одна из команд - действий.
 
-Можете воспользовать следующим блоком кода для замера времени выполнения команды.
+Воспользуйтесь следующим блоком кода для замера времени выполнения команды.
 ```scala
 def time[R](block: => R): R = {    
 	val t0 = System.nanoTime()
-    val result = block    // call-by-name
+  val result = block    // call-by-name
 	val t1 = System.nanoTime()
 	println("Elapsed time: " + (t1 - t0) + "ns")
 	result
