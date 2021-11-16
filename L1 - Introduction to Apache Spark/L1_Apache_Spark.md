@@ -149,11 +149,7 @@ linesWithWar.first
 Данные могут быть перемещены в кэш. Этот приём очень полезен при повторном обращении к данным, для запросов "горячих" данных или запуска итеративных алгоритмов.
 
 Перед подсчётом количества элементов вызовите команду кэширования `cache()`. Трансформации не будут обработаны, пока не будет запущена одна из команд - действий.
-```scala
-linesWithWar.cache()
-linesWithWar.count()
-linesWithWar.count()
-```
+
 Можете воспользовать следующим блоком кода для замера времени выполнения команды.
 ```scala
 def time[R](block: => R): R = {    
@@ -164,6 +160,13 @@ def time[R](block: => R): R = {
 	result
 }
 ```
+
+```scala
+linesWithWar.cache()
+time{ linesWithWar.count() }
+time{ linesWithWar.count() }
+```
+
 
 ![](images/5_count_elapsed_time.png)
 
@@ -380,8 +383,8 @@ taxiCounts.cache()
 Сравните время, которое трансформации выполняются первый раз и второй. Чем больше данные, тем существеннее разница.
 
 ```scala
-taxiCounts.count()
-taxiCounts.count()
+time{ taxiCounts.count() }
+time{ taxiCounts.count() }
 ```
 
 ## Настройка способа хранения RDD
