@@ -45,6 +45,23 @@ https://databank.illinois.edu/datasets/IDB-9610843 или https://uofi.app.box.c
 
 nyctaxi.csv   
 схема: https://uofi.app.box.com/v/NYCtaxidata/file/33670345557
+```
+_id: primary key
+_rev:  unknown attribute.
+medallion: a permit to operate a yellow taxicab in New York City, it is effectively a (randomly assigned) car ID. See also medallions.
+hack_license: a license to drive the vehicle, it is effectively a (randomly assigned) driver ID. See also hack license.
+vendor_id: e.g.,Verifone Transportation Systems(VTS), or Mobile KnowledgeSystems Inc(CMT), implemented as part of theTechnology Passenger Enhancements Project.
+rate_code: taximeter rate, see NYCT&L description.
+store_and_fwd_flag: unknown attribute.
+pickup_datetime: start time of the trip, mm-dd-yyyy hh24:mm:ss EDT.
+dropoff_datetime: end time of the trip, mm-dd-yyyy hh24:mm:ss EDT.
+passenger_count: number of passengers on the trip, default value is one.
+trip_time in secs: trip time measured by the taximeter in seconds.
+trip_distance: trip distance measured by the taximeter in miles.
+pickup_longitude and pickup_latitude: GPS coordinates at the start of the trip.
+dropoff_longitude and dropoff_latitude: GPS coordinates at the end of the trip.
+```
+
 
 nycTaxiFares.gz   
 nycTaxiRides.gz  
