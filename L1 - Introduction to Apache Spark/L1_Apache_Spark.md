@@ -593,4 +593,6 @@ https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.StorageLev
 Проведите анализ данных велопарковок на языке Scala или Python в неинтерактивном режиме (`--deploy-mode cluster`). Инструкции по созданию и запуску приложений:
  - Scala `L1_noninteractive_bike_analysis_scala.md`
  - Python `L1_noninteractive_bike_analysis_scala.py`
+ 
+Решите задачи [L1_Apache_Spark_Tasks.md](L1_Apache_Spark_Tasks.md)
     
