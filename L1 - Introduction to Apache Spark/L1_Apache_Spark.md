@@ -23,6 +23,8 @@ Apache Spark — программный каркас с открытым исх�
 -	MapR https://mapr.com/try-mapr/sandbox/,
 -	Hortonworks https://www.cloudera.com/downloads/hortonworks-sandbox.html .
 
+Либо получите доступ у администратора к https://maapr.xyz.
+
 # Работа в консоли spark-shell/pyspark
 
 В первой части задания вы работаете с 2 файловыми системами:
