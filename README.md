@@ -10,6 +10,9 @@
 | Декабрь | [ZooKeeper](L4 - ZooKeeper/L4_Zookeeper.md) | проект и отчёт |
 
 
+### События
+27-30 июня, Data + AI Summit NA 2022: https://databricks.com/dataaisummit/north-america-2022
+
 ### Архив событий
 26-28 октября, Flink Forward Global 2021: https://www.youtube.com/playlist?list=PLDX4T_cnKjD0J2LFr7yBk2aSS_o2l-7ue  
 24-28 мая, Data + AI Summit NA 2021: https://www.youtube.com/playlist?list=PLTPXxbhUt-YVtufaAKCRfyPYsjgpq5DRL   
