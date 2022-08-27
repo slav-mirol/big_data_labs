@@ -1,4 +1,4 @@
-# Материалы курса "Большие данные" 2021
+# Материалы курса "Большие данные" 2022
 
 ### График выполнения и форма отчётности
 
@@ -11,9 +11,9 @@
 
 
 ### События
-27-30 июня, Data + AI Summit NA 2022: https://databricks.com/dataaisummit/north-america-2022
 
 ### Архив событий
+27-30 июня, Data + AI Summit NA 2022: https://databricks.com/dataaisummit/north-america-2022
 26-28 октября, Flink Forward Global 2021: https://www.youtube.com/playlist?list=PLDX4T_cnKjD0J2LFr7yBk2aSS_o2l-7ue  
 24-28 мая, Data + AI Summit NA 2021: https://www.youtube.com/playlist?list=PLTPXxbhUt-YVtufaAKCRfyPYsjgpq5DRL   
 9-12 декабря, SmartData 2020: https://www.youtube.com/playlist?list=PLeN_80lmoMY1ugdDLg2mWht5eQDq6CoNQ
