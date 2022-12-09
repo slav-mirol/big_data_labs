@@ -1,6 +1,6 @@
 # Подсказки к упражениям
 
-
+[![IMAGE_ALT](https://img.youtube.com/vi/yu2TZF7S1Mg/3.jpg)](https://youtu.be/yu2TZF7S1Mg?t=964)
 ## Двухфазный коммит протокол на основе ZooKeeper
 На основе материалов: https://zookeeper.apache.org/doc/r3.4.2/recipes.html#sc_recipes_twoPhasedCommit и https://stackoverflow.com/questions/24635777/how-to-implement-2pc-in-zookeeper-cluster
 
